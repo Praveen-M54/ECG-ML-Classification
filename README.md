@@ -1,7 +1,5 @@
 # ECG-ML-Classification
 
-# ECG Machine Learning
-
 This project contains Jupyter notebooks that help you download the publicly available [MIT-BIH Arrhythmia Database](https://physionet.org/physiobank/database/mitdb/), and do some Machine Learning on it inorder to predict if the heart-beats in the ECG data classify either as "Normal" or "Abnormal".
 
 Many training models on ECG data seem to work around building out a Convolutional Neural Network (CNN) in Keras.

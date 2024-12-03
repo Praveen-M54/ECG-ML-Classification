@@ -4,23 +4,23 @@ This project contains Jupyter notebooks that help you download the publicly avai
 
 Many training models on ECG data seem to work around building out a Convolutional Neural Network (CNN) in Keras.
 
-- A [CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network) is typically used for classifying image data.
-- [Keras](https://keras.io/) is the API that makes building such a neural network relatively easy.
+- A CNN is typically used for classifying image data.
+- Keras is the API that makes building such a neural network relatively easy.
 
-The model in this project instead uses [Tensorflow Estimators](https://www.tensorflow.org/guide/estimators).
+The model in this project instead uses Tensorflow Estimators.
 
 More details are included in each of the notebook files.
 
 # Used Libraries
 
-- [Python](https://www.python.org/)
-- [NumPy](https://docs.scipy.org/doc/numpy/dev/)
-- [Matplotlib](https://matplotlib.org/)
-- [wfdb](https://pypi.org/project/wfdb/)
-- [mitdb](https://github.com/Nospoko/qrs-tutorial) - To make the code in "datasets" and "utils" compatible with Python 3, add parentheses to print statements and replace import urllib2 with import urllib.request as urllib2.
-- [BioSPPy](https://github.com/PIA-Group/BioSPPy)
-- [Tensorflow](https://www.tensorflow.org/)
+- Python
+- NumPy
+- Matplotlib
+- wfdb
+- mitdb - To make the code in "datasets" and "utils" compatible with Python 3, add parentheses to print statements and replace import urllib2 with import urllib.request as urllib2.
+- BioSPPy
+- Tensorflow
 
 # Disclaimer
 
-Do not use anything from this project to make medical decisions. It is for educational and learning purposes only.
+Do not use anything from this project to make medical decisions. It is for Educational and Research purposes only.
